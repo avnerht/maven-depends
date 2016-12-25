@@ -1,0 +1,83 @@
+mkdir Active
+cd Active
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/ac/activeapache.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/ac/AppPulse_BSMAddOn.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/ac/AppPulse_webapp.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/ac/deployment.git
+cd ..
+
+mkdir Suite
+cd Suite
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/ap/apppulsesuite.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/ap/AppPulseSuiteProduct.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/ap/deployment.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/ap/suite_container.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/ap/OO_Templates.git
+cd ..
+
+mkdir common
+cd common
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/apc/jsfw.git
+cd ..
+
+mkdir docs
+cd docs
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/doc/Active_Docs.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/doc/Active_Help.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/doc/Mobile_Docs.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/doc/Mobile_Help.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/doc/Shared_Files_DOC.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/doc/Suite_Docs.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/doc/Suite_Help.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/doc/Trace_Docs.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/doc/Trace_Help.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/doc/Web_Docs.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/doc/Web_Help.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/doc/YoutubeCounter.git
+cd ..
+
+mkdir Mobile
+cd Mobile
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/mob/android-instrumentation.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/mob/apmapps.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/mob/BrowserApps.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/mob/BrowserBL.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/mob/browser-instrumentation.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/mob/BSMConnector.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/mob/cm-mobile-devices.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/mob/CommonUtils.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/mob/deployment.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/mob/hybrid-instrumentation.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/mob/OO_Templates.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/mob/SymService.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/mob/VenusApache.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/mob/VenusBL.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/mob/VenusEngine.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/mob/VenusProduct.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/mob/VenusServer.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/mob/VenusTests.git
+cd ..
+
+mkdir Neptune
+cd Neptune
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/nep/AOB.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/nep/CommonFoundation.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/nep/CommonServer.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/nep/DotnetAgent.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/nep/DotnetTests.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/nep/GreenServer.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/nep/JavaAgent.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/nep/JavaAgentTest.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/nep/NeptuneApacheGW.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/nep/Neptune_containers.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/nep/NeptuneDeployment.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/nep/NeptuneIntegration.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/nep/neptuneProduct.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/nep/NeptuneRegression.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/nep/NodeJsAgent.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/nep/OO_Templates.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/nep/PHPAgent.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/nep/Purple.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/nep/suiteVer.git
+git clone ssh://git@ap-git.myd.hpeswlab.net:7999/nep/TestAppManager.git
+cd ..
